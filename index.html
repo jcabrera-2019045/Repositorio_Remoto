@@ -8,5 +8,28 @@
 <body>
     <h1>Javier Cabrera - 2019045</h1>
     <h2>Centro Educativo Tecnico Laboral Kinal</h2>
+
+    <form>
+        <label for ="number1"> ingreser el primer numero</label>
+        <input type="text" id="num1"><br>
+        <label for="number2">ingrese el segundo numero</label>
+        <input type="text" id="num2"><br>
+        <input type="button" onclick="suma()" value="Operar"><br>
+        <label for="Resultado">La respuesta es:</label>
+        <input type="text" id="num3"><br>
+    </form>
+
+    <script>
+        var n1, n2, result
+
+        function suma() {
+            n1 = num1.value *1;
+            n2 = num2.value *1;
+            restult = n1+n2;
+            num3.value = result
+        }
+
+    </script>
+
 </body>
 </html>
